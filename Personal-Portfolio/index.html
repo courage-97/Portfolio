@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    link
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+    link
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar__ul">
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#images">images</a></li>
+            <li><a href="#contacts">contacts</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="home">
+        <button class="home__button"><a href="#about">about me</a></button>
+             <i class="fa-solid fa-arrow-down"></i>
+    </section>
+
+    <section class="about" id="about">
+        <article class="about_image_container">
+            <img class="about__image" src="images/IMG_20230129_170702_986.jpg" alt="image">
+        </article>
+        
+        <article class="about__infor">
+            With a strong foundation in both web development and finance, I bring a unique and versatile skill set to any team or project. My technical proficiency spans HTML, CSS, JavaScript, and React, enabling me to build responsive, user-friendly web applications that deliver seamless digital experiences. In addition to my development capabilities, I hold formal qualifications in accounting and possess hands-on experience in the finance sector. This dual expertise allows me to approach problems with both analytical precision and creative technical solutions, making me particularly effective in roles that require cross-functional collaboration between technical and financial teams. Whether it's developing fintech platforms, automating financial workflows, or creating data-driven dashboards, I thrive at the intersection of technology and business strategy.
+            </article>
+    </section>
+
+    <section id="images" class="images">
+        <div class="images__container">
+            <img src="images/IMG_20221005_073352_228.jpg" class="image1" alt="image1">
+            <img src="images/IMG_20221005_073459_814.jpg" class="image2" alt="image2">
+            <img src="images/IMG_20230129_170702_986.jpg" class="image3" alt="image3">
+            <img src="images/IMG_20230518_152723_445.jpg" class="image4" alt="image4">
+            <img src="images/IMG_20230711_154606_304.jpg" class="image5" alt="image5">
+            <img src="images/IMG_20230711_155900_793.jpg" class="image6" alt="image6">
+        </div> 
+         
+    </section>
+
+    <section class="contact-section" id="contacts">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>I'd love to hear from you! Fill out the form below and I'll get back to you as soon as possible.</p>
+    
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
